@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <p>My number:</p>
+    <p>45464654646</p>
+    <p>My Email:</p>
+    <p>brunoagonzalez27@gmail.com</p>
+    <hr>
+    <form action="gmailto:brunoagonzalez27@gmail.com" method="post" enctype="text/plain"><!--averiguar por qué no funciona el atributo action-->
+        <label>Your Name:</label>
+        <input type="text" name="YourName" value=""><br>
+        <label>Your Email:</label>
+        <input type="email" name="YourEmail" value=""><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea><br><!--rows means how tall the text area should be, and the cols determine how wide it should it be on the page.-->
+        <input type="submit" value="send">
+    </form>
+</body>
+</html>
